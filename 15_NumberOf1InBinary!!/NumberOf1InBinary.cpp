@@ -33,6 +33,16 @@ int NumberOf1_Solution1(int n)
     return count;
 }
 
+/*
+ * 每次减去一个1，然后再和原数与，就会消除一个1
+ *
+ * 10101  -1
+ * 10100 & 10101 ==》10100
+ * 10011 & 10100 ==》10000
+ * 01111 & 10000 ==》0
+ *
+ * */
+
 int NumberOf1_Solution2(int n)
 {
     int count = 0;

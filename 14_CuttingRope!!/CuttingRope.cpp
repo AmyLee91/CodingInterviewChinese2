@@ -18,6 +18,16 @@ https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 // 积是多少？例如当绳子的长度是8时，我们把它剪成长度分别为2、3、3的三段，此
 // 时得到最大的乘积18。
 
+/*
+ * 1  -> 1
+ * 2 --> 2
+ * 3 --->2
+ * 4--->max{ (1,3),(2,2)} = 4
+ * 5--->max{ (1,4),(2,3)} = 6
+ * ....
+ * ...
+ *
+ * */
 #include <iostream>
 #include <cmath>
 

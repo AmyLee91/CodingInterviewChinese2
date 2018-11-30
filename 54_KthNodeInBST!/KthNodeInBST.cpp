@@ -15,6 +15,15 @@ https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 // 面试题54：二叉搜索树的第k个结点
 // 题目：给定一棵二叉搜索树，请找出其中的第k大的结点。
 
+
+/*https://blog.csdn.net/yf_li123/article/details/70237689
+ * 中序遍历的结果是有序的
+ *
+ * 可以把树转化成中序遍历的结果，然后取第k大，
+ * 或者直接对树进行遍历
+ * 这个遍历需要 点技巧
+ *
+ * */
 #include <cstdio>
 #include "../Utilities/BinaryTree.h"
 
